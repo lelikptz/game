@@ -1,0 +1,128 @@
+@import url('normalize.css');
+
+html, body {
+    height: 100%;
+    background-color: #003200;
+}
+
+.wrapper {
+    background: url('../i/bg.jpg') no-repeat;
+    position: relative;
+    width: 1000px;
+    height: 670px;
+    margin: 0 auto;
+}
+
+.gamer {
+    position: absolute;
+    background: url('../i/pimpa.png') no-repeat;
+    width: 35px;
+    height: 37px;
+    left: 220px;
+    top: 135px;
+}
+
+.start {
+    position: absolute;
+    font-size: 140%;
+    background-color: #2dbb5e;
+    box-shadow: inset #313a3e 0 0 70px 15px, #fff 0 0 0 2px;
+    cursor: pointer;
+    text-transform: uppercase;
+    text-align: center;
+    color: #fff;
+    text-shadow: 0 0 5px #000;
+    font-weight: bold;
+    line-height: 150px;
+    border-radius: 20px;
+    border: 2px solid #000;
+    width: 95px;
+    height: 145px;
+    right: 70px;
+    top: 270px;
+}
+
+.start:active {
+    top: 272px;
+}
+
+.hands_block {
+    position: absolute;
+    top: 215px;
+    left: 340px;
+}
+
+.hand {
+    background: url('../i/handsAnim.png') no-repeat 0 0 transparent;
+    float: right;
+    width: 37px;
+    height: 62px;
+    margin-right: 10px;
+}
+
+.hand.animate {
+    background-position: 0 0;
+    height: 215px;
+    width: 75px;
+}
+
+.dice_count {
+    color: #00ff16;
+    font-size: 140%;
+    font-weight: bold;
+    text-transform: uppercase;
+    position: absolute;
+    left: 300px;
+    top: 295px;
+}
+
+.dice {
+    position: absolute;
+    right: 288px;
+    top: 355px;
+    width: 66px;
+    height: 67px;
+    background: no-repeat scroll 0 0 transparent;
+}
+
+.dice.dice-1 {
+    background-image: url('../i/1.png');
+}
+
+.dice.dice-2 {
+    background-image: url('../i/2.png');
+}
+
+.dice.dice-3 {
+    background-image: url('../i/3.png');
+}
+
+.dice.dice-4 {
+    background-image: url('../i/4.png');
+}
+
+.dice.dice-5 {
+    background-image: url('../i/5.png');
+}
+
+.dice.dice-6 {
+    background-image: url('../i/6.png');
+}
+
+.bonus,
+.total {
+    color: #f1ff00;
+    font-size: 120%;
+    font-weight: bold;
+    position: absolute;
+    left: 500px;
+}
+
+.bonus {
+    top: 333px;
+}
+
+.total {
+    top: 382px;
+}
+
